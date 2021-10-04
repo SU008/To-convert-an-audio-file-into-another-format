@@ -24,6 +24,7 @@ speech_data=[t x]; % Save data to be moved into new file format
 
 %Create a new file using fopen function
 %name the file with it format, here its called 'speech' and is a 'dat' file fomat. 
+% we use the 'w' to write to the file
 fid=fopen('speech.dat','w'); 
 
 %print the data onto the newly created file

@@ -1,5 +1,7 @@
 
 
+
+
 %To convert an audio file into another format
 % Example convert a wav into a '.dat' format for use in OrCAD Pspice simulation program.
 
@@ -13,7 +15,7 @@
 
 
 %To plot the audio signal 
-t=(0:1:length(x)-1)*45e-6; % Time axis aprox 1/fs
+t=(0:1:length(x)-1)*1/fs; % Time axis 
 t=t'; % Transpose
 plot(t,x);%plot the input audio signal 
 
